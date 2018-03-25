@@ -2,59 +2,87 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+
+    <!-- Bootstrap 4 CDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- MY CSS -->
     <link rel="stylesheet" href="/css/index.css">
+
+    <link rel="icon" type="image/png" href="/images/JL-22 copy.jpg">
+
     <title>Jack Lambros - Drummer</title>
   </head>
   <body>
 
-    <p>
-      <a href="/">
-        Home
-      </a>
-    </p>
-    <p>
-      <a href="/bio">
-        Bio
-      </a>
-    </p>
-    <p>
-      <a href="photos">
-        Photos
-      </a>
-    </p>
-    <p>
-      <a href="/video">
-        Video
-      </a>
-    </p>
-    <p>
-      <a href="/contact">
-        Contact
-      </a>
-    </p>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="/">Jack Lambros</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <!-- <a class="nav-item nav-link active" href="#">Home<span class="sr-only">(current)</span></a> -->
+          <a class="nav-item nav-link" href="/">Home</a>
+          <a class="nav-item nav-link" href="/bio">Bio</a>
+          <a class="nav-item nav-link" href="/photos">Photos</a>
+          <a class="nav-item nav-link" href="/video">Video</a>
+          <a class="nav-item nav-link" href="/contact">Contact</a>
+        </div>
+      </div>
+    </nav>
 
-    <p>
-      <a href="https://www.facebook.com/Jktotheizo/" target="_blank">Facebook</a>
-    </p>
-    <p>
-      <a href="https://www.instagram.com/jktotheizo/" target="_blank">Instagram</a>
-    </p>
-    <p>
-      <a href="https://www.youtube.com/user/Jktotheizo1" target="_blank">YouTube</a>
-    </p>
 
 
     <%= yield %>
 
 
-    <p>
-      Copyright 2018 Jack Lambros
-    </p>
+    <hr>
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <center><a href="https://www.facebook.com/Jktotheizo/"  target="_blank">
+          <img src="/images/1482453524_facebook copy.png" alt="" width="50px">
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <center><a href="https://www.instagram.com/jktotheizo/" target="_blank">
+          <img src="/images/1482453529_instagram copy.png" alt="" width="50px">
+        </a>
+      </div>
+      <div class="col-sm-4">
+        <center><a href="https://www.youtube.com/user/Jktotheizo1" target="_blank">
+          <img src="/images/youtube copy.png" alt="" width="50px">
+        </a>
+      </div>
+    </div>
+  </div>
 
-    <p>
-      Site Created, Updated, and Maintained by <a href="https://stevelicata.github.io/WebDevPortfolio/">Steve Licata</a>
-    </p>
+    <div class="card">
+      <div class="card-body bg-dark">
+        <blockquote class="blockquote mb-0">
+          <p>
+            Copyright 2018 Jack Lambros | Site Design by <a href="https://stevelicata.github.io/WebDevPortfolio/">Steve Licata</a>
+          </p>
+        </blockquote>
+      </div>
+    </div>
 
+    <!-- jQuery CDN -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+
+    <!-- Bootstrap 4 CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+    <!-- Google/YouTube Dev Tool API -->
+    <script src="https://apis.google.com/js/platform.js"></script>
+
+    <!-- MY JS -->
     <script src="/js/main.js" type="text/javascript">
     </script>
   </body>
