@@ -1,0 +1,9 @@
+h1 {
+  font-family: 'SNES';
+}
+
+/*CUSTOM FONT*/
+@font-face {
+  font-family: 'SNES';
+  src: url('SNES italic.ttf');
+}

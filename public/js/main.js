@@ -7,7 +7,4 @@ window.onload = function() {
   });
 
 
-
-
-
 };
