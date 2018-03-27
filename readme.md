@@ -4,6 +4,8 @@ Website for New York-based drummer Jack Lambros.
 
 -Ruby
 
+-Sendgrid API
+
 -JavaScript
 
 -jQuery
