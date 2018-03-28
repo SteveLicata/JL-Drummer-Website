@@ -8,6 +8,7 @@ h2, p {
 
 h1 {
   font-family: 'SNES';
+  color: red;
 }
 
 /*CUSTOM FONT*/
@@ -18,4 +19,35 @@ h1 {
 
 .navbar {
   /* position: fixed; */
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 640px;
+  width: 100vw;
+
+  background-image: url('JL-20 copy.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+  color: white;
+
+  .flex-items {
+    border: 2px solid white;
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .homepage {
+
+  }
+
+  .home-name {
+
+   }
 }
