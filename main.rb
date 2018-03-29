@@ -26,7 +26,7 @@ end
 
 
 
-# sendgrib API email setup
+# sendgrib API email/message setup
 get '/home' do
 
   # set the from, subject and to addresses

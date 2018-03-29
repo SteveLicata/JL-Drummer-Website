@@ -2,19 +2,30 @@ body {
   background-color: black;
 }
 
-h2, p {
-  color: white;
-}
-
 h1 {
   font-family: 'SNES';
   color: red;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: 'PressStart2p';
+  color: white;
+}
+
+p {
+  color: white;
 }
 
 /*CUSTOM FONT*/
 @font-face {
   font-family: 'SNES';
   src: url('SNES italic.ttf');
+}
+
+@font-face {
+  font-family: 'PressStart2p';
+  src: url('PressStart2p.ttf');
 }
 
 .navbar {

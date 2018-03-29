@@ -18,4 +18,4 @@ Website for New York-based drummer Jack Lambros.
 
 -CSS3
 
--Custom Font
+-Custom Fonts
