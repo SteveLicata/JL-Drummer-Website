@@ -2,10 +2,16 @@ body {
   background-color: black;
 }
 
-h1 {
+.navbar-logo {
   font-family: 'SNES';
   color: red;
-  font-size: 50px;
+  font-size: 40px;
+}
+
+.home-name {
+  font-family: 'SNES';
+  color: red;
+  font-size: 80px;
 }
 
 h2 {
