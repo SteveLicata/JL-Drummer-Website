@@ -2,17 +2,6 @@ body {
   background-color: black;
 }
 
-.navbar-logo {
-  font-family: 'SNES';
-  color: red;
-  font-size: 40px;
-}
-
-.home-name {
-  font-family: 'SNES';
-  color: red;
-  font-size: 80px;
-}
 
 h2 {
   font-family: 'PressStart2p';
@@ -21,6 +10,10 @@ h2 {
 
 p {
   font-family: 'Orbitron', sans-serif;
+  color: white;
+}
+
+hr {
   color: white;
 }
 
@@ -45,8 +38,16 @@ a:hover {
   text-decoration: none;
 }
 
-.navbar {
-  /* position: fixed; */
+.navbar-logo {
+  font-family: 'SNES';
+  color: red;
+  font-size: 40px;
+}
+
+.home-name {
+  font-family: 'SNES';
+  color: red;
+  font-size: 80px;
 }
 
 .flex-container {
