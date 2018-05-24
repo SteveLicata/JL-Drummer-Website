@@ -80,3 +80,7 @@ a:hover {
 
    }
 }
+
+li, ul {
+  color: white;
+}
