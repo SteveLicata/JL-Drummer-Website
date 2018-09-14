@@ -44,7 +44,7 @@ a:hover {
   font-size: 40px;
 }
 
-.home-name {
+#home-name {
   font-family: 'SNES';
   color: red;
   font-size: 80px;
