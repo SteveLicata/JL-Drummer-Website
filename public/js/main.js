@@ -7,7 +7,7 @@ window.onload = function() {
   });
 
   //types "Welcome To . . ." text on home page one letter at a time
-  var myText1 = 'Welcome To . . .';
+  var myText1 = 'Welcome To';
   console.log(myText1);
   var myArray1 = myText1.split("");
   console.log(myArray1);
