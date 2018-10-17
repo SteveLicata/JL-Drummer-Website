@@ -1,4 +1,4 @@
-Website for New York-based drummer Jack Lambros.
+Website for drummer Jack Lambros.
 
 -Sinatra Framework
 
